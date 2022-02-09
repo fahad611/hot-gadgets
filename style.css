@@ -1,0 +1,125 @@
+.container{
+    width: 100%;
+    margin-bottom: 100px;
+    /* border: 2px solid #fc9815; */
+}
+.logo{
+    width: 10%;
+}
+.carousel{
+    background-image: url(./hot-gadgets/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5%;
+}
+.card-body{
+    text-align: center;
+}
+.button{
+    color: white;
+    background-color:black;
+    border-radius: 5px;
+    border: none;
+    cursor:pointer;
+    padding: 5px 10px;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: rgb(240, 191, 29) !important;
+    border-radius: 15px!important;
+}
+.bg2 img{
+    width: 10%;
+    position: relative;
+    bottom:200px;
+    left: -20px;
+}
+.seeall{
+    color:rgb(240, 191, 29);
+    text-decoration: none;
+}
+.col-md-6{
+    padding: 3%;
+}
+.carousel-control-color{
+    background-color: #d4d4d4;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.color{
+    background-color:rgb(240, 191, 29);
+    border: 2px solid rgb(240, 191, 29);
+    width: 100px;
+    border-radius: 5px;
+}
+.main-row{
+    justify-content: center;
+    
+}
+.column{
+    width: 40% !important;
+    /* border: 1px solid purple; */
+}
+.category-products{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid #fc9815; */
+}
+.bag{
+    width: 100%;
+}
+.beauty{
+    width: 100%;
+}
+.shoes{
+    width: 100%;
+}
+
+.bag-area{
+    /* border: 1px solid green; */
+    width: 100px;
+    padding: 10px;
+    margin: 20px 0px;
+    box-shadow: 0 0 10px 2px rgb(202, 200, 197);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 10px; 
+}
+.beauty-area{
+    /* border: 1px solid green; */
+    width: 100px;
+    padding: 10px;
+    margin: 20px 0px;
+    box-shadow: 0 0 10px 2px rgb(202, 200, 197);
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 10px;
+}
+.shoes-area{
+    /* border: 1px solid green; */
+    width: 100px;
+    padding: 10px;
+    margin: 20px 0px;
+    box-shadow: 0 0 10px 2px rgb(202, 200, 197);
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 10px;
+}
+.h6{
+    text-align: center;
+}
+.cart{
+    /* border: 1px solid blue; */
+     justify-content: center;
+     position: relative;
+     left:12px;
+}
+.cart-img{
+    width: 100%;
+}
+
+/* .col-md-3{
+    
+    border: 1px solid red;
+} */
